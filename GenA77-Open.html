@@ -41,22 +41,19 @@
             background-color: #005eff;
             color: white;
         }
+        /* Điều chỉnh độ rộng cột */
+        th:nth-child(1), td:nth-child(1) { width: 5%; } /* Hạng */
+        th:nth-child(2), td:nth-child(2) { width: 40%; } /* Đội */
+        th:nth-child(3), td:nth-child(3) { width: 15%; } /* Điểm */
+        th:nth-child(4), td:nth-child(4) { width: 20%; } /* Trận Đã Chơi */
+        th:nth-child(5), td:nth-child(5) { width: 20%; } /* Tỉ số (Lịch Thi Đấu) */
+
         /* Màu sắc riêng biệt cho các đội */
-        .team-a {
-            background-color: #ffcccb; /* Đỏ nhạt */
-        }
-        .team-b {
-            background-color: #d2f8d2; /* Xanh lá nhạt */
-        }
-        .team-c {
-            background-color: #ffffcc; /* Vàng nhạt */
-        }
-        .team-d {
-            background-color: #d2e9ff; /* Xanh dương nhạt */
-        }
-        .team-e {
-            background-color: #f8d2f8; /* Tím nhạt */
-        }
+        .team-a { background-color: #ffcccb; } /* Đỏ nhạt */
+        .team-b { background-color: #d2f8d2; } /* Xanh lá nhạt */
+        .team-c { background-color: #ffffcc; } /* Vàng nhạt */
+        .team-d { background-color: #d2e9ff; } /* Xanh dương nhạt */
+        .team-e { background-color: #f8d2f8; } /* Tím nhạt */
     </style>
 </head>
 <body>
@@ -78,40 +75,31 @@
                 <tbody>
                     <tr class="team-c">
                         <td>1</td>
-                        <td>Viện Dưỡng Lão</br>
-                            Lão︵Ngũ - 2262410530718833 - Ops Vũ</td>
+                        <td>Viện Dưỡng Lão<br>Lão︵Ngũ - 2262410530718833 - Ops Vũ</td>
                         <td>2</td>
                         <td>1</td>
                     </tr>
-
                     <tr class="team-a">
                         <td>2</td>
-                        <td>Các Chàng Chill Boyz</br>
-                            ๖ۣۜCông✿҈ - 12357181806806129 - Ops Công</td>
+                        <td>Các Chàng Chill Boyz<br>๖ۣۜCông✿҈ - 12357181806806129 - Ops Công</td>
                         <td>1</td>
                         <td>1</td>
                     </tr>
-
                     <tr class="team-b">
                         <td>3</td>
-                        <td>Tổ Đội Khiêm Tốn</br>
-                            Hào Thích gáy -5218881333691505 - Ops Hào</td>
+                        <td>Tổ Đội Khiêm Tốn<br>Hào Thích gáy -5218881333691505 - Ops Hào</td>
                         <td>1</td>
                         <td>2</td>
                     </tr>
-                    
                     <tr class="team-d">
                         <td>-</td>
-                        <td>Trùm Giao Tranh</br>
-                            ²⁰ᴾᴱᴿᶜᴱᴺᵀ - 1926048556319857 - Ops Chí Bảo</td>
+                        <td>Trùm Giao Tranh<br>²⁰ᴾᴱᴿᶜᴱᴺᵀ - 1926048556319857 - Ops Chí Bảo</td>
                         <td>-</td>
                         <td>-</td>
                     </tr>
-
                     <tr class="team-e">
                         <td>-</td>
-                        <td>Ngại Va Chạm</br>
-                            Lão︵Tứ.ư.ư - 2052843305763953 - Ops Gia Bảo</td>
+                        <td>Ngại Va Chạm<br>Lão︵Tứ.ư.ư - 2052843305763953 - Ops Gia Bảo</td>
                         <td>-</td>
                         <td>-</td>
                     </tr>
@@ -139,7 +127,6 @@
                         <td>1 - 1</td>
                         <td class="team-b">Tổ Đội Khiêm Tốn</td>
                     </tr>
-
                     <tr>
                         <td>- -</td>
                         <td>- -</td>
@@ -147,7 +134,6 @@
                         <td> - </td>
                         <td class="team-c">Viện Dưỡng Lão</td>
                     </tr>
-
                     <tr>
                         <td>- -</td>
                         <td>- -</td>
@@ -155,7 +141,6 @@
                         <td> - </td>
                         <td class="team-d">Trùm Giao Tranh</td>
                     </tr>
-
                     <tr>
                         <td>- -</td>
                         <td>- -</td>
@@ -163,7 +148,6 @@
                         <td> - </td>
                         <td class="team-e">Ngại Va Chạm</td>
                     </tr>
-
                     <tr>
                         <td>03/04</td>
                         <td>00:00</td>
@@ -171,14 +155,13 @@
                         <td>0 - 2</td>
                         <td class="team-c">Viện Dưỡng Lão</td>
                     </tr>
-
                     <tr>
                         <td>- -</td>
                         <td>- -</td>
                         <td class="team-b">Tổ Đội Khiêm Tốn</td>
                         <td> - </td>
                         <td class="team-d">Trùm Giao Tranh</td>
-
+                    </tr>
                     <tr>
                         <td>- -</td>
                         <td>- -</td>
@@ -186,7 +169,6 @@
                         <td> - </td>
                         <td class="team-e">Ngại Va Chạm</td>
                     </tr>
-
                     <tr>
                         <td>- -</td>
                         <td>- -</td>
@@ -194,7 +176,6 @@
                         <td> - </td>
                         <td class="team-d">Trùm Giao Tranh</td>
                     </tr>
-
                     <tr>
                         <td>- -</td>
                         <td>- -</td>
@@ -202,7 +183,6 @@
                         <td> - </td>
                         <td class="team-e">Ngại Va Chạm</td>
                     </tr>
-
                     <tr>
                         <td>- -</td>
                         <td>- -</td>
@@ -212,7 +192,7 @@
                     </tr>
                 </tbody>
             </table>
-        </section>        
+        </section>
     </div>
 </body>
 </html>
